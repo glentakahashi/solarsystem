@@ -737,7 +737,7 @@ void init()
     //allow our stars to be different sizes
     glEnable(GL_VERTEX_PROGRAM_POINT_SIZE);
     glEnable( GL_BLEND );
-    glClearColor( 0.0, 0.0, 0.0, 0.0 ); // black background
+    glClearColor( 0.0, 0.0, 0.0, 1.0 ); // black background
 }
 
 void initGlut(int& argc, char** argv)
